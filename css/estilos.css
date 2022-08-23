@@ -728,7 +728,7 @@
     font-size: 3.8rem;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .seccion-index-1 {
     margin: 0 auto;
   }
@@ -763,7 +763,7 @@
     width: 100%;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   .seccion-index-1 {
     width: 90%;
     max-width: none;
