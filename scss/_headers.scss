@@ -131,6 +131,17 @@
     background-size: cover;
     position: relative;
     z-index: 1;
+
+    h2 {
+      font-size: 4rem;
+      font-family: "Bebas Neue", cursive;
+    }
+    
+    p {
+      margin: 20px 0 40px;
+      font-size: 1.6rem;
+      font-family: "Bebas Neue", cursive;
+    } 
   
   .seccion-fanposts-0 {
     width: 90%;
@@ -144,16 +155,7 @@
     z-index: -1;
   }
   
-  h2 {
-    font-size: 3.2rem;
-    font-family: "Bebas Neue", cursive;
-  }
   
-  p {
-    margin: 20px 0 40px;
-    font-size: 1rem;
-    font-family: "Bebas Neue", cursive;
-  } 
 }
 
 /*header fanshots*/
