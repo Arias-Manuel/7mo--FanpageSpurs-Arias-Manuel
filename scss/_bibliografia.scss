@@ -1,677 +1,820 @@
-
-.main-bibliografia {
-  margin-top: 45px;
+.body-bibliografia {
+  background: $background-bibliografia;
 }
 
-  .seccion-bibliografia-0 {
-    height: auto;
-    width: 85%;
-    margin: 0 auto 0 auto;
-    display: flex;
-    flex-direction: column;
 
-    h2 {
-      font-family: 'Bebas Neue', cursive;
-      font-size: 3.5rem;
-      text-align: center;
-      color: #fff;    
-    }
-       p {
-        font-size: 1.9rem;
-        text-align: center;
-        margin: 0px auto 25px auto;
-        font-family: 'Bebas Neue', cursive;
-        color: #fff;
-        width: 95%;
-        
-      }
+  .main-bibliografia {
+    min-height: 125vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
 
   .seccion-bibliografia-1 {
     height: auto;
-    width: 85%;
-    margin: -15px auto 35px auto;
-    border: 3px solid #fff;
+    width: 90%;
+    padding-top: 2rem;
+    margin: 2rem auto;
+    border: 3px solid black;
     display: flex;
     flex-direction: column;
   
-    h2 {
-      font-size: 1.7rem;
-      margin: 10px;
-      font-family: 'Bebas Neue', cursive;
-      text-align: center;
-      color: #fff;
+  h2 {
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #000000;
+   
+  }
+  .span-0 {
+    color: rgb(100, 200, 200);
+  }
+  .span-1 {
+    color: rgba(209, 31, 31, 0.767);
+  }
+  
+  div {
+    height: 200px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem auto;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 1.5s;
+
+    &:hover {
+      transform: scale(1.1);
     }
-      .span-0 {
-        color: rgba(100, 200, 200, 1)
-      }
-      .span-1 {
-        color: rgba(209, 31, 31, 0.767);
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+
+  
+  .figure_chaparrals {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.4rem 0;
+
+
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px #000000 solid;
+      text-align: center;
+      
+    }
+  }
+}
+
+.seccion-bibliografia-2 {
+  height: auto;
+  width: 90%;
+  padding-top: 0.1rem;
+  margin: 2rem auto;
+  border: 3px solid black;
+    
+  h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+
+  .span-2 {
+  color: rgb(53, 45, 45);
+}
+ .span-3 {
+  color: rgb(53, 45, 45);
+}
+
+  div {
+    height: 200px;
+    width: 60%;
+    margin: 0 auto 20px auto;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 1.5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    margin: -10px auto 0 auto;
+    padding: 10px;
+    display: flex;
+    color: #000000;
+  }
+
+.figure_Gervin {
+  width: 245px;
+  margin: 0 auto;
+  height: auto;
+  padding: 0.5rem 0;
+
+  img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    
+  }
+  figcaption {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+  .figure_Gervin_2 {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+  
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+}
+
+
+.seccion-bibliografia-3 {
+    height: auto;
+    width: 90%;
+    padding-top: 0.3rem;
+    margin: 2rem auto;
+    border: 3px solid black;
+  
+  h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+  .span-4 {
+    color: rgb(62, 214, 194);
+  }
+  .span-5 {
+    color: #d440c1;
+  }
+  .span-6 {
+    color: rgb(75, 66, 66);
+  }
+  .span-7 {
+    color: #FF9A25;
+  }
+
+  div {
+    height: 200px;
+    width: 60%;
+    margin: 0 auto 20px auto;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 1.5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    } 
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+  
+  .figure_Robinson {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+  
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+
+  .figure_Rodman {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+  
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%; 
+    }
+
+    figcaption {
+      border: 1px solid black;
+    }
+  }
+}
+
+.seccion-bibliografia-4 {
+    height: auto;
+    width: 90%;
+    padding-top: 2rem;
+    margin: 2rem auto;
+    border: 3px solid black;
+  
+  h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+
+  .span-8 {
+    color: #000000;
+  }
+
+  .span-9 {
+    color: rgb(75, 66, 66);
+  }
+
+  .span-10 {
+    color: #000000;
+  }
+
+  div {
+    height: 200px;
+    width: 60%;
+    margin: 0 auto 20px auto;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 1.5s;
+  
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+
+  .figure_Duncan {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+  
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+
+  .figure_Manu {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+
+  .figure_Parker {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+ 
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+
+  .figure_Bigthree {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+
+  img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    
+  }
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+}
+
+
+.seccion-bibliografia-5 {
+    height: auto;
+    width: 90%;
+    padding-top: 2rem;
+    margin: 2rem auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+
+  h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 20px;
+    color: rgb(31, 28, 28);
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+
+  div {
+    height: 200px;
+    width: 60%;
+    margin: 0 auto 5px auto;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 1.5s;
+ 
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: left;
+    padding: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+
+  
+  .figure_Lam-Der {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+
+  
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+
+
+  .figure_young {
+    width: 245px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem 0;
+  
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    figcaption {
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+}  
+
+.seccion-bibliografia-final {
+  height: auto;
+  width: 90%;
+  padding-top: 2rem;
+  margin: 2rem auto;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+
+h3 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 20px;
+  color: rgb(31, 28, 28);
+  font-family: 'Permanent Marker', cursive;
+  color: #000000;
+}
+
+div {
+  height: 200px;
+  width: 60%;
+  margin: 0 auto 5px auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transition: transform 1.5s;
+
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+p {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 1rem;
+  font-family: 'Permanent Marker', cursive;
+  color: #000000;
+ }
+}
+
+  
+@media screen and (min-width: 768px) {
+  
+  .seccion-bibliografia-1 { 
+    h2 {
+    font-size: 3rem;
+  }
+  .figure_chaparrals {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+  .seccion-bibliografia-2 {
+    h2 {
+    font-size: 3rem;
+    padding-bottom: 0.2rem;
+  }
+
+  p {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .figure_Gervin{
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0 25px 63px 25px;
+  }
+  
+  .figure_Gervin_2{
+    float: right;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0 25px 63px 25px;
+  }
+}
+
+  .seccion-bibliografia-3 {
+    h2 {
+    font-size: 3rem;   
+  }
+
+  p {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .figure_Robinson {
+    float: right;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0 25px 100px 25px;
+  }
+  
+  .figure_Rodman {
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0 25px 63px 25px;
+  
+    .figure_Rodman p {
+      padding: 0px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+  .seccion-bibliografia-4 {
+    h2 {
+      font-size: 3rem;
+    }
+    
+    p {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+
+  .figure_Duncan {
+    float: right;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0px 25px 131px 25px;
+  }
+
+  .figure_Manu {
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0px 25px 129px 25px;
+  }
+
+  .figure_Parker {
+    float: right;
+    width: 30%;
+    height: 250px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    padding: 24px 0px 70px 0px;
+    margin: 0 25px 160px 25px;
+  }
+
+  .figure_Bigthree {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+    .Bigthree-p {
+      text-align: center;
+    }
+  }
+}
+
+  .seccion-bibliografia-5 {
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .figure_Lam-Der {
+    width: 50%;
+  }
+
+  .figure_young {
+    width: 50%;
+  
+    p {
+      padding: 5px;
+    }
+  }
+
+}
+
+.seccion-bibliografia-final {
+
+  h3 {
+    font-size: 3rem;
+
+    p {
+      padding: 5px;
+    }
+  }
+
+}
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .seccion-bibliografia-1 {
+
+    h2 {
+      font-size: 4rem;
       }
 
     div {
-      height: 200px;
-      width: 60%;
-      margin: 0 auto 20px auto;
+      width: 65%;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
     }
-      img {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        transition: transform 1.5s;
-      
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      
-      p {
-        font-size: 1.4rem;
-        font-family: 'Bebas Neue', cursive;
-        text-align: left;
-        color: #fff;
-        margin: 0 auto;
-        padding: 10px;    
-      }
   }
 
   .seccion-bibliografia-2 {
-    height: auto;
-    width: 85%;
-    margin: 0 auto 35px auto;
-    display: flex;
-    flex-direction: column;
-    border: 3px solid #fff;
-  
+    
     h2 {
-      font-size: 1.7rem;
-      font-family: 'Bebas Neue', cursive;
-      text-align: center;
-      margin: 20px;
-      color: #fff
-    }
-      .span-2 {
-        color: rgb(53, 45, 45);
-      }
-      .span-3 {
-        color: rgb(53, 45, 45);
-      }
-
-      div {
-        height: 200px;
-        width: 60%;
-        margin: 0 auto 20px auto;
-      }
-      img {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        transition: transform 1.5s;
-      
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-
-      p {
-        font-size: 1.4rem;
-        font-family: 'Bebas Neue', cursive;
-        text-align: left;
-        color: #fff;
-        margin: -10px auto 0 auto;
-        padding: 10px;
-      }
+    font-size: 4rem;
   }
-
-  .seccion-bibliografia-3 {
-    height: auto;
-    width: 85%;
-    margin: 0 auto 35px auto;
-    display: flex;
-    border: 3px solid #fff;
-    flex-direction: column;
  
-    h2 {
-      font-size: 1.7rem;
-      font-family: 'Bebas Neue', cursive;
-      text-align: center;
-      margin: 20px;
-      color: #fff;
-      }
-      .span-4 {
-        color: rgb(62, 214, 194)
-      }
-      .span-5 {
-        color: #d440c1
-      }
-      .span-6 {
-        color: rgb(75, 66, 66);
-      }
-      .span-7 {
-        color: #FF9A25;
-      }
-
-      div{
-        height: 200px;
-        width: 60%;
-        margin: 0 auto 20px auto;
-      }
-
-      img {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        transition: transform 1.5s;
-      
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-
-      p {
-        font-size: 1.4rem;
-        font-family: 'Bebas Neue', cursive;
-        text-align: left;
-        color: #fff;
-        margin: 0 auto;
-        padding: 10px;  
-      }
-  }    
-
-  .seccion-bibliografia-4 {
-    height: auto;
-    width: 85%;
-    margin: 0 auto 35px auto;
-    display: flex;
-    border: 3px solid #fff;
-    flex-direction: column;
-  
-    h2 {
-      font-size: 1.7rem;
-      font-family: 'Bebas Neue', cursive;
-      text-align: center;
-      margin: 20px;
-      color: #fff;
-    }
-      .span-8 {
-        color: #000000;
-      }
-      .span-9 {
-        color: rgb(75, 66, 66);
-      }
-      .span-10 {
-        color: #000000;
-      }
-
-      div {
-        height: 200px;
-        width: 60%;
-        margin: 0 auto 20px auto;
-      }
-      img {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        transition: transform 1.5s;
-      
-        &:hover {
-          transform: scale(1.1);
-      } 
-    }
-      p {
-        font-size: 1.4rem;
-        font-family: 'Bebas Neue', cursive;
-        text-align: left;
-        color: #fff;
-        margin: 0 auto;
-        padding: 10px;  
-      }     
-  } 
-
-  .seccion-bibliografia-5 {
-    height: auto;
-    width: 85%;
-    margin: 0 auto 25px auto;
-    display: flex;
-    border: 3px solid #fff;
-    flex-direction: column;
-   
-    h2 {
-      font-size: 1.7rem;
-      font-family: 'Bebas Neue', cursive;
-      text-align: center;
-      margin: 20px;
-      color: rgb(31, 28, 28);
-    }
-      div{
-        height: 200px;
-        width: 60%;
-        margin: 0 auto 5px auto;
-      }
-        img{
-          height: 100%;
-          width: 100%;
-          margin: 0 auto;
-          background-color: #fff;
-          transition: transform 1.5s;
-        
-          &:hover {
-            transform: scale(1.1);
-        } 
-      }
-        
-      p {
-        font-size: 1.4rem;
-        font-family: 'Bebas Neue', cursive;
-        text-align: left;
-        color: #fff;
-        padding: 1rem;
-      }
+    div {
+      width: 65%;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
   }
 
-@media only screen and (min-width: 475px) and (max-width: 599px) {
-  
-  .main-bibliografia {
-    width: auto;
+    .figure_Gervin {
+      margin-bottom: 7rem;
+      height: 330px;  
+    }
+
+    .figure_Gervin_2 {
+      margin-bottom: 10rem;
+      height: 330px; 
+    }
+    
   }
 
-  .seccion-bibliografia-0 {
-    width: 100%; 
-  
+
+  .seccion-bibliografia-3 { 
+    
     h2 {
-      font-size: 4rem;
-      padding: 10px;  
-    }
-      p {
-        font-size: 1.9rem;
-        text-align: center;
-      }
+    font-size: 4rem;
   }
 
-  .seccion-bibliografia-1 {
-    width: 85%;
-  
-    h2 {
-      font-size: 2.5rem;
-      padding: 10px;
-    }
-      p {
-        font-size: 1.8rem;
-      }
-  }
-
-  .seccion-bibliografia-2 {
-    width: 85%;
-  
-    h2 {
-      font-size: 2.5rem;
-      padding: 10px;
-    }   
-      p {
-        font-size: 1.8rem;
-      }
-  }
-
-  .seccion-bibliografia-3 {
-    width: 85%;
- 
-    h2 {
-      font-size: 2.5rem;
-      padding: 10px;
-      }
-      p {
-        font-size: 1.8rem;
-      }
-  }
-
-  .seccion-bibliografia-4 {
-    width: 85%;
-  
-    h2 {
-      font-size: 2.5rem;
-      padding: 10px;
-    }
-      p {
-        font-size: 1.8rem;
-      }
-  } 
-
-  .seccion-bibliografia-5 {
-    width: 85%;
-
-    h2 {
-      font-size: 2.5rem;
-      padding: 10px;
-    }
-      p {
-        font-size: 1.8rem;
-      }
-  } 
-}
-
-@media only screen and (min-width: 600px) and (max-width: 725px)  {
-
-  .seccion-bibliografia-0 {
-    width: 100%;
-  
-    h2 {
-      font-size: 5rem;
-      width: 95%;
-      margin: 0 auto;
-    }
-      p {
-        font-size: 2.9;
-      }
-  }
-
-  .seccion-bibliografia-1 {
-    width: 87%;
- 
-    h2 {
-      font-size: 2rem;
-    }
-      div {
-        width: 85%;
-      }
-        p {
-          font-size: 2rem;
-        }
-  }
-
-  .seccion-bibliografia-2 {
-    width: 87%;
-
-    h2 {
-      font-size: 2rem;
-    }
-      div {
-        width: 85%;
-      }
-        p {
-          font-size: 2rem;
-        }
-  }
-
-  .seccion-bibliografia-3 {
-    width: 87%;
-  
-    h2 {
-      font-size: 2rem;
-    }
-      div {
-        width: 85%;
-      }
-        p {
-          font-size: 2rem;
-        }
-  }
-
-  .seccion-bibliografia-4 {
-    width: 87%;
- 
-    h2 {
-      font-size: 2rem;
-    }
-      div {
-        width: 85%;
-      }
-        p {
-          font-size: 2rem;
-        }
-  }
-
-  .seccion-bibliografia-5 {
-    width: 87%;
-    margin-bottom: 60px;
- 
-    h2 {
-      font-size: 2rem;
-    }
-      div {
-        width: 85%;
-      }
-        p {
-          font-size: 2rem;
-        }
-  }
-}
-
-@media only screen and (min-width: 726px) and (max-width: 1026px) {
- 
-  .seccion-bibliografia-0 {
-    margin-top: 6.3rem;
-    width: 80%;
-    margin: 7rem auto 0 auto;
-  
-    h2 {
-      font-size: 6.4rem;
-    }
-      p {
-        font-size: 2.2rem;
-        width: 100%;
-        margin-bottom: 2rem;
-      }
-  }
-
-  .seccion-bibliografia-1 {
-    width: 85%;
-  
-    h2 {
-      font-size: 3rem;
-    }
-      p {
-        font-size: 2rem;
-      }
-  }
-
-  .seccion-bibliografia-2 {
-    width: 85%;
-  
-    h2 {
-      font-size: 3rem;
-    }
-      p {
-        font-size: 2rem;
-      }
-  }   
-
-  .seccion-bibliografia-3 {
-    width: 85%;
-  
-    h2 {
-      font-size: 3rem;
-    }
-      p {
-        font-size: 2rem;
-      }
-  }
-
-  .seccion-bibliografia-4 {
-    width: 85%;
-  
-    h2 {
-      font-size: 3rem;
-    }
-      p {
-        font-size: 2rem;
-      }
-  }
-
-  .seccion-bibliografia-5 {
-    width: 80%;
+  div {
+    width: 65%;
+    margin-top: 3rem;
     margin-bottom: 2rem;
-  
-    h2 {
-      font-size: 3rem;
-    }
-      p {
-        font-size: 2rem;
-      }
-  }   
-} 
-
-@media only screen and (min-width: 1027px) and (max-width: 1134px) {
-
-  .seccion-bibliografia-0 {
-    width: 90%;
-    margin-top: 6.5rem;
-  
-    h2 {
-      font-size: 6.5rem;
-     
-    }
-      p {
-        font-size: 2.5rem;
-      }
   }
 
-  .seccion-bibliografia-1 {
-    width: 85%;
-  
-    h2 {
-      font-size: 5rem;
-    }
-      p {
-        font-size: 2rem;
-        padding: 1rem;
-        width: 90%;
-      }
-     
+  .figure_Robinson {
+    height: 330px;
+    width: 360px;
+    margin-bottom: 10rem;
+    margin-top: -1rem;
   }
 
-  .seccion-bibliografia-2 {
-    width: 85%;
-  
-    h2 {
-      font-size: 5rem;
-    }
-      p {
-        font-size: 2rem;
-        padding: 1rem;
-        width: 90%;
-      }
+  .figure_Rodman {
+    height: 340px;
+    width: 360px;
+    margin-bottom: 20rem;
   }
-
-  .seccion-bibliografia-3 {
-    width: 85%;
-  
-    h2 {
-      font-size: 5rem;
-    }
-      p {
-        font-size: 2rem;
-        padding: 1rem;
-        width: 90%;
-      }
-    }
-
-  .seccion-bibliografia-4 {
-    width: 85%;
-  
-    h2 {
-      font-size: 5rem;
-    }
-      p {
-        font-size: 2rem;
-        padding: 1rem;
-        width: 90%;
-      }
-    }
-
-  .seccion-bibliografia-5 {
-    width: 85%;
-  
-    h2 {
-      font-size: 5rem;
-    }
-      p {
-        font-size: 2rem;
-        padding: 1rem;
-        width: 90%;
-      }
-  }    
 }
 
-@media only screen and (min-width: 1135px) {
-  
-  .seccion-bibliografia-0 {
-    width: 95%;
-    margin-top: 7rem;
-  
-    h2 {
-      font-size: 6rem;
-      width: 53%;
-      margin: 0 auto;
-    }
-      p {
-        font-size: 2.5rem;
-        
-      }
-  }
-
-  .seccion-bibliografia-1 {
-    width: 85%;
-  
-    h2 {
-      font-size: 4rem;
-    }
-      p {
-        font-size: 2.1rem;
-        padding: 1rem;
-        width: 90%;
-      }
-  }
-
-  .seccion-bibliografia-2 {
-    width: 85%;
-  
-    h2 {
-      font-size: 4rem;
-    }
-      p {
-        font-size: 2.1rem;
-        padding: 1rem;
-        width: 90%;
-      }
-  }    
-  
-  .seccion-bibliografia-3 {
-    width: 85%;
-  
-    h2 {
-      font-size: 4rem;
-    }
-      p {
-        font-size: 2.1rem;
-        padding: 1rem;
-        width: 90%;
-      }
-  }
-
   .seccion-bibliografia-4 {
-    width: 85%;
-  
-    h2 {
-      font-size: 4rem;
-    }
-      p {
-        font-size: 2.1rem;
-        padding: 1rem;
-        width: 90%;
-      }
-  }   
-  
-  .seccion-bibliografia-5 {
-    width: 85%;
+  h2 {
+    font-size: 4rem;
+  }
+
+  .figure_Duncan {
+    height: 330px;
+    width: 360px;
+  }
+
+  .figure_Manu {
+    height: 330px;
+    width: 360px;
+  }
+
+  .figure_Parker {
+    height: 330px;
+    margin-bottom: 5rem;
+    width: 360px;
+  }
+
+  div {
+    width: 65%;
+    margin-top: 3rem;
     margin-bottom: 2rem;
-  
+  } 
+}
+
+  .seccion-bibliografia-5 {
     h2 {
       font-size: 4rem;
     }
-      p {
-        font-size: 2.1rem;
-        padding: 1rem;
-        width: 90%;
-      }
-  }    
-}     
+  }
+
+  .seccion-bibliografia-final {
+    div {
+      width: 40%;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    } 
+  }
+}
+

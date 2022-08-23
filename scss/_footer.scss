@@ -1,107 +1,66 @@
 footer {
-  background-color: $backGroundFooter;
-  border: 3px solid #fff;
-  opacity: 0.9;
-  color: #fff;
+    background-color: #000000;
+    border: 3px solid #fff;
+    opacity: 0.9;
+    color: #fff;
 
-  h5 {
-    font-family: $fontFamilyFooterSubTitles;
-
-    background:
-      linear-gradient(
-        to right,
-        rgb(177, 14, 155),
-        rgba(100, 200, 200, 1)
-      ),
-      linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-        background-size: 100% 3px, 0 3px;
-        background-position: 100% 100%, 0 100%;
-        background-repeat: no-repeat;
-        transition: background-size 400ms;
-   
+  h4 {
+    font-family: "Lobster", cursive;
+    background: linear-gradient(to right, rgb(177, 14, 155), rgb(100, 200, 200)), linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 180), rgb(0, 100, 200));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+ 
     &:hover {
       color: wheat;
       background-size: 0 3px, 100% 3px;
-   }
-  } 
+    }
+  }
 
   .righteous {
-    font-family: $fontFamilyFooterParagraph;
+    font-family: "Righteous", cursive;
     color: #fff;
- 
+  
     &:hover {
       color: wheat;
     }
   }
 
-  .footer__linea{
+  .footer__linea {
     height: 1px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 5px;
     border: 0;
-    border-top: 1px dashed #fff; 
+    border-top: 1px dashed #fff;
     padding: 5px;
   }
+
   .logos {
     width: auto;
+  
   i {
     width: auto;
-  
-    &:hover {
-      text-shadow:
-      0 0 5px rgba(0,178,255,1),
-      0 0 10px rgba(0,178,255,1),
-      0 0 20px rgba(0,178,255,1),
-      0 0 40px rgba(38,104,127,1),
-      0 0 80px rgba(38,104,127,1),
-      0 0 90px rgba(38,104,127,1),
-      0 0 100px rgba(38,104,127,1),
-      0 0 140px rgba(38,104,127,1),
-      0 0 180px rgba(38,104,127,1); ;
-    }
-   } 
   }
+  &:hover {
+    text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 20px rgb(0, 178, 255), 0 0 40px rgb(38, 104, 127), 0 0 80px rgb(38, 104, 127), 0 0 90px rgb(38, 104, 127), 0 0 100px rgb(38, 104, 127), 0 0 140px rgb(38, 104, 127), 0 0 180px rgb(38, 104, 127);
+  }
+
+  }
+
+
 
   .reservado {
-    font-family: $fontFamilyFooterReserved;
+    font-family: "Lobster", cursive;
     text-decoration: none;
 
-  p {
-    color: white;
-  
-    &:hover {
-      color: wheat;
-    }
-  }
-
-  a {
-    color: white;
-
-    &:hover {
-      text-shadow:
-      0 0 5px rgba(0,178,255,1),
-      0 0 10px rgba(0,178,255,1),
-      0 0 20px rgba(0,178,255,1),
-      0 0 40px rgba(38,104,127,1),
-      0 0 80px rgba(38,104,127,1),
-      0 0 90px rgba(38,104,127,1),
-      0 0 100px rgba(38,104,127,1),
-      0 0 140px rgba(38,104,127,1),
-      0 0 180px rgba(38,104,127,1);
+    a {
+      color: white;
+    
+      &:hover {
+        text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 20px rgb(0, 178, 255), 0 0 40px rgb(38, 104, 127), 0 0 80px rgb(38, 104, 127), 0 0 90px rgb(38, 104, 127), 0 0 100px rgb(38, 104, 127), 0 0 140px rgb(38, 104, 127), 0 0 180px rgb(38, 104, 127);
       }
     }
-  } 
-
-
-
-
-}  
-
-
-
+  }
+}

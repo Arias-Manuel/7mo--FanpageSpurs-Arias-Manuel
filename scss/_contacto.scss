@@ -1,36 +1,35 @@
-/*---------------Inicio del main Contacto con Bootstrap--------------------------*/
-.main__contacto {
-  background-color: #000000;
-  opacity: 0.9;
-  font-family:'Lobster', cursive;
-  color: #fff;
 
-  legend {
-    font-family: 'Bebas Neue', cursive;
+.main__contacto {
+    background: $back-ground-contacto ;
+    opacity: 0.9;
+    font-family: "Lobster", cursive;
+    color: #fff;
+  }
+  .main__contacto legend {
+    font-family: "Bebas Neue", cursive;
     text-align: center;
     margin-top: 6.5rem;
   }
-}
-
-#checkbox {
-  margin-left: 10px;
-
-  input{
-    margin-bottom: 20px;
-  }
-}
-
-#checkbox button {
-  border-radius: 1rem;
-  transition: .3s ease all;
-  position: relative;
-  overflow: hidden;
-
-  span {
+  
+  #checkbox {
+    margin-left: 10px;
+  
+    input {
+      margin-bottom: 20px;
+    }
+  
+    button {
+    border-radius: 1rem;
+    transition: 0.3s ease all;
+    position: relative;
+    overflow: hidden;
+  
+    span {
     position: relative;
     z-index: 2;
-    transition: .3s ease all;
-  }
+    transition: 0.3s ease all;
+    } 
+  
     &::after {
       content: "";
       width: 100%;
@@ -41,9 +40,12 @@
       z-index: 1;
       top: -50px;
       left: calc(-100% - 50px);
-      transition: .3s ease-in-out all;
+      transition: 0.3s ease-in-out all;
     }
-      &:hover::after {
-        left: 0;
-      }
-} 
+    &:hover::after {
+      left: 0;
+    }
+  }
+}
+
+ 

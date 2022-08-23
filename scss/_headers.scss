@@ -1,0 +1,253 @@
+ /*Header index*/
+
+.header {
+    min-height: 160vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/Background__index__header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+ 
+  .caja-texto {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+    z-index: -1;
+    font-family: 'Permanent Marker', cursive;
+    
+  
+  p {
+    margin: 20px 0 40px;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;;
+  }
+  
+  figure {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  figcaption {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+  .coder {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+ 
+  
+  &:hover {
+    border: 1px solid rgb(7, 3, 3);
+    background: rgb(0, 0, 0);
+    transition: 1s;
+  }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    
+  .caja-texto {
+    
+    h2 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 8rem
+    }
+  }
+ 
+}
+
+
+
+
+/*header Bibliografia*/
+  
+  .header-bibliografia {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/Bigthree.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  
+  .seccion-bibliografia-0 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+    z-index: -1;
+  }
+  
+  .seccion-bibliografia-0 h2 {
+    font-size: 3rem;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  .seccion-bibliografia-0 p {
+    margin: 20px 0 40px;
+    font-size: 1rem;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  }
+
+/*header fanposts*/
+
+  .header-fanposts {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/Background_pop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  
+  .seccion-fanposts-0 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+    z-index: -1;
+  }
+  
+  h2 {
+    font-size: 3.2rem;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  p {
+    margin: 20px 0 40px;
+    font-size: 1rem;
+    font-family: "Bebas Neue", cursive;
+  } 
+}
+
+/*header fanshots*/
+  
+  .header-fanshots {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/Background_shout.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+  .seccion-fanshots-0 {
+    width: 90%;
+    font-family: "Bebas Neue", cursive;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+    z-index: -1;
+
+    h2 {
+      font-size: 5rem;
+      font-family: "Bebas Neue", cursive;
+    }
+    
+    p {
+      margin: 20px 0 40px;
+      font-size: 1.3rem;
+      font-family: "Bebas Neue", cursive;
+    } 
+  }
+}
+
+/*header productos*/
+
+  .header-productos {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/producto-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+      font-size: 3.2rem;
+    }
+ 
+  .titulo-productos {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+    z-index: -1; 
+    font-family: "Bebas Neue", cursive;
+    font-size: 1rem;
+  }
+}
+
+/*header contacto*/
+
+  .header-contacto {
+    min-height: 140vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/Contactbck.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+    h2 {
+      font-size: 5rem;
+    }
+  
+  .contacto_titulo {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+    z-index: -1;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+  }
+}
