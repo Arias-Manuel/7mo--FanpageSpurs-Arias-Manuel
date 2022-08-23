@@ -248,11 +248,11 @@
   margin-top: 2rem;
   z-index: -1;
 }
-.header-bibliografia .seccion-bibliografia-0 h2 {
+.header-bibliografia h2 {
   font-size: 3rem;
   font-family: "Bebas Neue", cursive;
 }
-.header-bibliografia .seccion-bibliografia-0 p {
+.header-bibliografia p {
   margin: 20px 0 40px;
   font-size: 1.2rem;
   font-family: "Bebas Neue", cursive;
@@ -1415,11 +1415,11 @@
     margin-bottom: 2rem;
   }
   .seccion-bibliografia-2 .figure_Gervin {
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
     height: 330px;
   }
   .seccion-bibliografia-2 .figure_Gervin_2 {
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
     height: 330px;
   }
   .seccion-bibliografia-3 h2 {
