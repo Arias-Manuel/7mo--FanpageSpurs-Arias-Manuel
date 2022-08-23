@@ -1439,7 +1439,7 @@
   .seccion-bibliografia-3 .figure_Rodman {
     height: 340px;
     width: 360px;
-    margin-bottom: 20rem;
+    margin-bottom: 6rem;
   }
   .seccion-bibliografia-4 h2 {
     font-size: 4rem;
@@ -1447,10 +1447,12 @@
   .seccion-bibliografia-4 .figure_Duncan {
     height: 330px;
     width: 360px;
+    margin-bottom: 60px;
   }
   .seccion-bibliografia-4 .figure_Manu {
     height: 330px;
     width: 360px;
+    margin-bottom: 50px;
   }
   .seccion-bibliografia-4 .figure_Parker {
     height: 330px;
