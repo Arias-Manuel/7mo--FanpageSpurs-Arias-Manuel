@@ -250,12 +250,12 @@
 }
 .header-bibliografia h2 {
   font-size: 3rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Lobster", cursive;
 }
 .header-bibliografia p {
   margin: 20px 0 40px;
   font-size: 1.2rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Lobster", cursive;
 }
 
 /*header fanposts*/
@@ -269,13 +269,13 @@
   z-index: 1;
 }
 .header-fanposts h2 {
-  font-size: 4rem;
-  font-family: "Bebas Neue", cursive;
+  font-size: 2.2rem;
+  font-family: "Michroma", sans-serif;
 }
 .header-fanposts p {
   margin: 20px 0 40px;
-  font-size: 1.6rem;
-  font-family: "Bebas Neue", cursive;
+  font-size: 1rem;
+  font-family: "Michroma", sans-serif;
 }
 .header-fanposts .seccion-fanposts-0 {
   width: 90%;
@@ -300,8 +300,7 @@
   z-index: 1;
 }
 .header-fanshots .seccion-fanshots-0 {
-  width: 90%;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Righteous", cursive;
   color: #fff;
   position: absolute;
   top: 50%;
@@ -312,8 +311,8 @@
   z-index: -1;
 }
 .header-fanshots .seccion-fanshots-0 h2 {
-  font-size: 5rem;
-  font-family: "Bebas Neue", cursive;
+  font-size: 3.5rem;
+  font-family: "Righteous", cursive;
 }
 .header-fanshots .seccion-fanshots-0 p {
   margin: 20px 0 40px;
@@ -332,10 +331,9 @@
   z-index: 1;
 }
 .header-productos h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
 }
 .header-productos .titulo-productos {
-  width: 90%;
   color: #fff;
   position: absolute;
   top: 50%;
@@ -344,13 +342,15 @@
   text-align: center;
   margin-top: 2rem;
   z-index: -1;
-  font-family: "Bebas Neue", cursive;
-  font-size: 1rem;
+  font-family: "Paytone One", sans-serif;
+}
+.header-productos .titulo-productos p {
+  font-size: 0.9rem;
 }
 
 /*header contacto*/
 .header-contacto {
-  min-height: 140vh;
+  min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/Contactbck.jpg);
   background-position: center;
@@ -359,7 +359,7 @@
   z-index: 1;
 }
 .header-contacto h2 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .header-contacto .contacto_titulo {
   width: 90%;
@@ -372,7 +372,9 @@
   margin-top: 2rem;
   z-index: -1;
   font-family: "Bebas Neue", cursive;
-  font-size: 2rem;
+}
+.header-contacto .contacto_titulo p {
+  font-size: 1.3rem;
 }
 
 .main {
@@ -1498,7 +1500,7 @@
 }
 .seccion-fanposts-1 h3 {
   text-align: center;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   font-size: 1.5rem;
   padding: 10px 0;
 }
@@ -1508,7 +1510,7 @@
 }
 .seccion-fanposts-1 div p {
   font-size: 0.9rem;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   text-align: center;
 }
 .seccion-fanposts-1 .boton-fanpost {
@@ -1520,7 +1522,7 @@
   text-align: center;
   font-size: 1rem;
   cursor: pointer;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   transition: 0.3s ease all;
   position: relative;
   overflow: hidden;
@@ -1560,7 +1562,7 @@
 }
 .seccion-fanposts-2 h3 {
   text-align: center;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   font-size: 1.5rem;
   padding: 10px 0;
 }
@@ -1570,7 +1572,7 @@
 }
 .seccion-fanposts-2 div p {
   font-size: 0.9rem;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   text-align: center;
 }
 .seccion-fanposts-2 .boton-fanpost {
@@ -1582,7 +1584,7 @@
   text-align: center;
   font-size: 1rem;
   cursor: pointer;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   transition: 0.3s ease all;
   position: relative;
   overflow: hidden;
@@ -1622,7 +1624,7 @@
 }
 .seccion-fanposts-3 h3 {
   text-align: center;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   font-size: 1.5rem;
   padding: 10px 0;
 }
@@ -1632,7 +1634,7 @@
 }
 .seccion-fanposts-3 div p {
   font-size: 0.9rem;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   text-align: center;
 }
 .seccion-fanposts-3 .boton-fanpost {
@@ -1644,7 +1646,7 @@
   text-align: center;
   font-size: 1rem;
   cursor: pointer;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   transition: 0.3s ease all;
   position: relative;
   overflow: hidden;
@@ -1685,7 +1687,7 @@
 }
 .seccion-fanposts-4 h3 {
   text-align: center;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   font-size: 1.5rem;
   padding: 10px 0;
 }
@@ -1695,7 +1697,7 @@
 }
 .seccion-fanposts-4 div p {
   font-size: 0.9rem;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   text-align: center;
 }
 .seccion-fanposts-4 .boton-fanpost {
@@ -1707,7 +1709,7 @@
   text-align: center;
   font-size: 1rem;
   cursor: pointer;
-  font-family: "Michroma", sans-serif;
+  font-family: "Sriracha", cursive;
   transition: 0.3s ease all;
   position: relative;
   overflow: hidden;
@@ -1894,7 +1896,8 @@
   text-align: center;
   padding: 0.5rem 0;
   border: 5px solid #000000;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Righteous", cursive;
+  color: #fff;
 }
 .seccion-fanshots-1 div {
   height: auto;
@@ -1932,7 +1935,8 @@
   text-align: start;
   border: 3px dashed #000000;
   padding: 10px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Righteous", cursive;
+  color: #fff;
 }
 .contenedor-botonera .boton-fanshots {
   height: 3rem;
@@ -1944,7 +1948,7 @@
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 50px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Righteous", cursive;
   font-size: 1rem;
   background-color: #463c3c;
 }
@@ -2118,7 +2122,8 @@
   font-size: 3.5em;
   text-align: left;
   text-align: center;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Paytone One", sans-serif;
+  color: #fff;
 }
 .seccion-producto-0 div {
   width: 100%;
@@ -2138,13 +2143,15 @@
   margin: 30px auto 0 auto;
   display: grid;
   grid-gap: 1rem;
+  grid-template-rows: auto;
   grid-template-columns: auto;
   grid-template-areas: "cabeza-1" "tronco-0" "tronco-1" "tronco-2" "tronco-3" "raiz-0" "raiz-1" "raiz-2" "raiz-3";
   border: 5px solid #000000;
 }
 .seccion-producto-1 p {
   font-size: 3.5em;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Paytone One", sans-serif;
+  color: #fff;
   text-align: center;
   padding: 10px;
 }
@@ -2172,7 +2179,8 @@
 }
 .seccion-producto-2 p {
   font-size: 3.5em;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Paytone One", sans-serif;
+  color: #fff;
   text-align: center;
   padding: 10px;
 }
@@ -2243,7 +2251,7 @@
     width: 80%;
     grid-gap: 1rem;
     grid-template-columns: auto;
-    grid-template-rows: 8rem 8rem 8rem;
+    grid-template-rows: auto;
     grid-template-areas: "cabeza cabeza cabeza cabeza" "torso-0 torso-1 torso-2 torseo-3" "pie-0 pie-1 pie-2 pie-3";
   }
   .seccion-producto-0 .cabeza {
@@ -2256,7 +2264,7 @@
     grid-gap: 1rem;
     width: 80%;
     grid-template-columns: auto;
-    grid-template-rows: 8rem 8rem 8rem;
+    grid-template-rows: auto;
     grid-template-areas: "cabeza-1 cabeza-1 cabeza-1 cabeza-1" "tronco-0 tronco-1 tronco-2 tronco-3" "raiz-0 raiz-1 raiz-2 raiz-3";
   }
   .seccion-producto-1 .cabeza-1 {
@@ -2269,7 +2277,7 @@
     grid-gap: 1rem;
     width: 80%;
     grid-template-columns: auto;
-    grid-template-rows: 8rem 8rem 8rem;
+    grid-template-rows: auto;
     grid-template-areas: "cabeza-2 cabeza-2 cabeza-2 cabeza-2" "abdomen-0 abdomen-1 abdomen-2 abdomen-3" "pierna-0 pierna-1 pierna-2 pierna-3";
   }
   .seccion-producto-2 .cabeza-2 {
@@ -2295,7 +2303,7 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: auto;
-    grid-template-rows: 8rem 8rem 8rem;
+    grid-template-rows: auto;
     grid-template-areas: "cabeza cabeza cabeza cabeza" "torso-0 torso-1 torso-2 torseo-3" "pie-0 pie-1 pie-2 pie-3";
   }
   .seccion-producto-0 .cabeza {
@@ -2308,7 +2316,7 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: auto;
-    grid-template-rows: 8rem 8rem 8rem;
+    grid-template-rows: auto;
     grid-template-areas: "cabeza-1 cabeza-1 cabeza-1 cabeza-1" "tronco-0 tronco-1 tronco-2 tronco-3" "raiz-0 raiz-1 raiz-2 raiz-3";
   }
   .seccion-producto-1 .cabeza-1 {
@@ -2321,7 +2329,7 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: auto;
-    grid-template-rows: 8rem 8rem 8rem;
+    grid-template-rows: auto;
     grid-template-areas: "cabeza-2 cabeza-2 cabeza-2 cabeza-2" "abdomen-0 abdomen-1 abdomen-2 abdomen-3" "pierna-0 pierna-1 pierna-2 pierna-3";
   }
   .seccion-producto-2 .cabeza-2 {

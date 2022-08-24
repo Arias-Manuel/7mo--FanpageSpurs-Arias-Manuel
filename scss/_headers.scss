@@ -110,13 +110,13 @@
   
   h2 {
     font-size: 3rem;
-    font-family: "Bebas Neue", cursive;
+    font-family: 'Lobster', cursive;
   }
   
   p {
     margin: 20px 0 40px;
     font-size: 1.2rem;
-    font-family: "Bebas Neue", cursive;
+    font-family: 'Lobster', cursive;
   }
 
   }
@@ -133,14 +133,14 @@
     z-index: 1;
 
     h2 {
-      font-size: 4rem;
-      font-family: "Bebas Neue", cursive;
+      font-size: 2.2rem;
+      font-family: 'Michroma', sans-serif;
     }
     
     p {
       margin: 20px 0 40px;
-      font-size: 1.6rem;
-      font-family: "Bebas Neue", cursive;
+      font-size: 1rem;
+      font-family: 'Michroma', sans-serif;
     } 
   
   .seccion-fanposts-0 {
@@ -170,8 +170,8 @@
     z-index: 1;
     
   .seccion-fanshots-0 {
-    width: 90%;
-    font-family: "Bebas Neue", cursive;
+
+    font-family: 'Righteous', cursive;;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -182,8 +182,8 @@
     z-index: -1;
 
     h2 {
-      font-size: 5rem;
-      font-family: "Bebas Neue", cursive;
+      font-size: 3.5rem;
+      font-family: 'Righteous', cursive;
     }
     
     p {
@@ -206,11 +206,11 @@
     z-index: 1;
 
     h2 {
-      font-size: 3.2rem;
+      font-size: 2.0rem;
     }
  
   .titulo-productos {
-    width: 90%;
+
     color: #fff;
     position: absolute;
     top: 50%;
@@ -219,15 +219,18 @@
     text-align: center;
     margin-top: 2rem;
     z-index: -1; 
-    font-family: "Bebas Neue", cursive;
-    font-size: 1rem;
+    font-family: 'Paytone One', sans-serif;
+
+    p {
+      font-size: 0.9rem;
+    }
   }
 }
 
 /*header contacto*/
 
   .header-contacto {
-    min-height: 140vh;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../assets/Contactbck.jpg);
     background-position: center;
@@ -236,7 +239,7 @@
     z-index: 1;
     
     h2 {
-      font-size: 5rem;
+      font-size: 3rem;
     }
   
   .contacto_titulo {
@@ -250,6 +253,9 @@
     margin-top: 2rem;
     z-index: -1;
     font-family: "Bebas Neue", cursive;
-    font-size: 2rem;
+    
+    p {
+      font-size: 1.3rem;
+    }
   }
 }
