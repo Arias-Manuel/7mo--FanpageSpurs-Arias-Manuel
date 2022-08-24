@@ -311,6 +311,7 @@ $mibandera: (
    transform: rotate(95deg); 
    border-radius: 90% 0; 
    position: relative; 
+   
 }
 
   
@@ -431,7 +432,7 @@ $mibandera: (
       margin: 0 auto;
     
       .parrafo_1 {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
       }
     }
@@ -440,7 +441,7 @@ $mibandera: (
       margin: 0 auto;
 
       .parrafo_2 {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
       }  
     }
@@ -483,9 +484,8 @@ $mibandera: (
     .figure_carlton {
       float: right;
       width: 30%;
-      height: 250px;
       margin-left: 35px;
-      padding: 24px 0px 70px 0px;
+
     }
   }
 
@@ -501,10 +501,9 @@ $mibandera: (
     .figure_pasman {
       float: left;
       width: 30%;
-      height: 250px;
-      margin-right: 38px;
-      margin-bottom: 30px;
-      padding: 24px 0px 70px 0px;
+      margin-right: 35px;
+  
+    
     }
   
     .manu_moment {

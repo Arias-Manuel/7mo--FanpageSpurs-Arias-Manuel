@@ -42,14 +42,13 @@ footer {
   
   i {
     width: auto;
-  }
+ 
   &:hover {
     text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 20px rgb(0, 178, 255), 0 0 40px rgb(38, 104, 127), 0 0 80px rgb(38, 104, 127), 0 0 90px rgb(38, 104, 127), 0 0 100px rgb(38, 104, 127), 0 0 140px rgb(38, 104, 127), 0 0 180px rgb(38, 104, 127);
+    }
   }
-
+  
   }
-
-
 
   .reservado {
     font-family: "Lobster", cursive;

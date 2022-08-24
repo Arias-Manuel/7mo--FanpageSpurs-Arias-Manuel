@@ -23,6 +23,7 @@
   font-family: "Lobster", cursive;
   color: #fff;
   text-decoration: underline;
+  margin-left: 1rem;
 }
 .nav .hamburguesa {
   position: relative;
@@ -734,14 +735,14 @@
     margin: 0 auto;
   }
   .seccion-index-1 .parrafo_1 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   .seccion-index-2 {
     margin: 0 auto;
   }
   .seccion-index-2 .parrafo_2 {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
   }
   .seccion-index-3 {
@@ -776,9 +777,7 @@
   .seccion-index-1 .figure_carlton {
     float: right;
     width: 30%;
-    height: 250px;
     margin-left: 35px;
-    padding: 24px 0px 70px 0px;
   }
   .seccion-index-2 {
     width: 90%;
@@ -791,10 +790,7 @@
   .seccion-index-2 .figure_pasman {
     float: left;
     width: 30%;
-    height: 250px;
-    margin-right: 38px;
-    margin-bottom: 30px;
-    padding: 24px 0px 70px 0px;
+    margin-right: 35px;
   }
   .seccion-index-2 .manu_moment {
     display: flex;
@@ -2416,7 +2412,7 @@ footer .logos {
 footer .logos i {
   width: auto;
 }
-footer .logos:hover {
+footer .logos i:hover {
   text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 20px rgb(0, 178, 255), 0 0 40px rgb(38, 104, 127), 0 0 80px rgb(38, 104, 127), 0 0 90px rgb(38, 104, 127), 0 0 100px rgb(38, 104, 127), 0 0 140px rgb(38, 104, 127), 0 0 180px rgb(38, 104, 127);
 }
 footer .reservado {
