@@ -13,7 +13,7 @@ background: $back-ground-productos;
     border: 5px solid #000000;
   
   p {
-    font-size: 3.5em;
+    font-size: 3.0em;
     text-align: left;
     text-align: center;
     font-family: 'Paytone One', sans-serif;
@@ -41,19 +41,15 @@ background: $back-ground-productos;
     margin: 30px auto 0 auto;
     display: grid;
     grid-gap: 1rem;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-areas: "cabeza-1" "tronco-0" "tronco-1" "tronco-2" "tronco-3" "raiz-0" "raiz-1" "raiz-2" "raiz-3";
     border: 5px solid #000000;
-  
-  
 
   p {
-    font-size: 3.5em;
+    font-size: 2.5em;
+    text-align: center;
     font-family: 'Paytone One', sans-serif;
     color: #fff;
-    text-align: center;
-    padding: 10px;
   }
 
   div {
@@ -84,12 +80,13 @@ background: $back-ground-productos;
     grid-template-areas: "cabeza-2" "abdomen-0" "abdomen-1" "abdomen-2" "abdomen-3" "pierna-0" "pierna-1" "pierna-2" "pierna-3";
  
   p {
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-family: 'Paytone One', sans-serif;
     color: #fff;
     text-align: center;
     padding: 10px; 
   }
+  
   img {
     width: 100%;
     height: 100%;
@@ -231,8 +228,6 @@ background: $back-ground-productos;
     .seccion-producto-0 {
       display: grid;
       grid-gap: 1rem;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
       grid-template-areas: "cabeza cabeza cabeza cabeza" "torso-0 torso-1 torso-2 torseo-3" "pie-0 pie-1 pie-2 pie-3";
     
     .cabeza {
@@ -246,8 +241,6 @@ background: $back-ground-productos;
     .seccion-producto-1 {
       display: grid;
       grid-gap: 1rem;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
       grid-template-areas: "cabeza-1 cabeza-1 cabeza-1 cabeza-1" "tronco-0 tronco-1 tronco-2 tronco-3" "raiz-0 raiz-1 raiz-2 raiz-3";
    
     .cabeza-1 {
@@ -260,9 +253,7 @@ background: $back-ground-productos;
 
     .seccion-producto-2 {
       display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
+      grid-gap: 1rem;  
       grid-template-areas: "cabeza-2 cabeza-2 cabeza-2 cabeza-2" "abdomen-0 abdomen-1 abdomen-2 abdomen-3" "pierna-0 pierna-1 pierna-2 pierna-3";
   
     .cabeza-2 {
