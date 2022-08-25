@@ -387,6 +387,7 @@
   width: 100%;
   height: auto;
   max-width: 1000px;
+  padding-top: 1rem;
 }
 .seccion-index-1 h2 {
   font-family: "Permanent Marker", cursive;
