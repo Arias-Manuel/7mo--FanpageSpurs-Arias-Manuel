@@ -94,6 +94,7 @@
 .nav .nav-links input:checked ~ .menu {
   right: 0;
   background-color: #000000;
+  opacity: 0.9;
 }
 .nav .nav-links input:checked ~ .hamburguesa {
   background: transparent;
@@ -2333,10 +2334,13 @@
   color: #fff;
 }
 
-.main__contacto legend {
+legend {
   font-family: "Bebas Neue", cursive;
   text-align: center;
-  margin-top: 6.5rem;
+  margin-top: 1.5rem;
+}
+legend h3 {
+  font-size: 2.5rem;
 }
 
 #checkbox {
