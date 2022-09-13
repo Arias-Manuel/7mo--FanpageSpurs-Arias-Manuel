@@ -122,11 +122,9 @@ background: $back-ground-productos;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transition: all 300ms;
+  font-size: 2.5rem;
+  font-family: 'Paytone One', sans-serif;
 
-  h2 {
-    font-size: 2.5rem;
-    font-family: 'Paytone One', sans-serif;
-  }
 }
 
   .funkosyubble__title {
@@ -145,9 +143,6 @@ background: $back-ground-productos;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     transition: all 300ms;
-  }
-
-  h2 {
     font-size: 2.5rem;
     font-family: 'Paytone One', sans-serif;
   }
