@@ -91,19 +91,6 @@
 
   @media screen and (min-width: 475px) {
   
-    .seccion-fanshots-0 {
-      height: auto;
-    
-    h2 {
-      font-size: 4.7rem;
-    }
-
-    p {
-      font-size: 1.7rem;
-      margin-bottom: 5px;
-    }
-  }
-
     .seccion-fanshots-1 {
       grid-auto-columns: auto;
       grid-auto-rows: auto;
@@ -133,22 +120,6 @@
   
   @media screen and (min-width: 550px) {
   
-
-    .seccion-fanshots-0 {
-      h2 {
-        font-size: 6rem;
-        margin-top: 3.8rem;
-      }
-
-      p {
-        text-align: center;
-        padding: 1rem;
-      }
-
-    }
-
-   
-
     .seccion-fanshots-1 {
       width: 85%;
       grid-gap: 5px;
@@ -175,18 +146,7 @@
 }
   
   @media screen and (min-width: 768px) {
-    .seccion-fanshots-0 {
-      margin: auto;
    
-      h2 {
-        font-size: 7rem;
-        margin-top: 3.9rem;
-      }
-      p {
-        font-size: 1.9rem;
-      }
-    }
-
     .seccion-fanshots-1 {
       margin: 0 auto;
       width: 85%;
@@ -221,19 +181,7 @@
 }
 
   @media screen and (min-width: 960px) {
-    .seccion-fanshots-0 {
-      margin: auto;
-    
-      h2 {
-        font-size: 6.5rem;
-        margin-top: 3.9rem;
-      }
-      p {
-        font-size: 2.6rem;
-        margin: 1rem auto;
-      }
-    }
-
+   
     .seccion-fanshots-1 {
       grid-gap: 10px;
       width: 85%;
@@ -251,7 +199,6 @@
         grid-column-end: img-fanshot-8;
       }
     }
-
 
     .contenedor-botonera {
      margin: 0 auto;
