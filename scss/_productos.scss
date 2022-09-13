@@ -1,266 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 .body-productos {
-
 background: $back-ground-productos;
-
 }
-  .seccion-producto-0 {
-    width: 95%;
-    margin: 30px auto 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 100%;
-    grid-template-areas: "cabeza" "torso-0" "torso-1" "torso-2" "torso-3" "pie-0" "pie-1" "pie-2" "pie-3";
-    border: 5px solid #000000;
   
-  p {
-    font-size: 3.0em;
-    text-align: left;
-    text-align: center;
+.container__background-triangle{
+  max-width: 1200px;
+  height: 600px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.triangle{
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: absolute;
+}
+
+.triangle1{
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to left, #0ea1e6, #1e67c7);
+  right: 100px;
+  top: 100px;
+  animation: t1 8s ease infinite;
+}
+
+.triangle2{
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to left, #ee8105, #c7371e);
+  top: 350px;
+  animation: t2 9s ease infinite;
+}
+
+.triangle3{
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to left, #1b8fc5, #df0f8f);
+  left: 200px;
+  animation: t3 7s ease infinite;
+}
+
+@keyframes t1 {
+  0%{
+      transform: rotate(45deg) translateY(0px);
+  }
+  50%{
+      transform: rotate(45deg) translateY(20px);
+  }
+  100%{
+      transform: rotate(45deg) translateY(0px);
+  }
+}
+
+@keyframes t2 {
+  0%{
+      transform: rotate(65deg) translateY(0px);
+  }
+  50%{
+      transform: rotate(65deg) translateY(20px);
+  }
+  100%{
+      transform: rotate(65deg) translateY(0px);
+  }
+}
+
+@keyframes t3 {
+  0%{
+      transform: rotate(45deg) translateY(0px);
+  }
+  50%{
+      transform: rotate(45deg) translateY(20px);
+  }
+  100%{
+      transform: rotate(45deg) translateY(0px);
+  }
+}
+
+.jersey__title {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+  h2 {
+    font-size: 2.5rem;
     font-family: 'Paytone One', sans-serif;
-    color: #fff;
-  }
-  div {
-    width: 100%;
-  
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    transition: transform 1.5s;
-    border: 5px solid #000000;
- 
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 }
-  
-  .seccion-producto-1 {
-    width: 95%;
-    margin: 30px auto 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 100%;
-    grid-template-areas: "cabeza-1" "tronco-0" "tronco-1" "tronco-2" "tronco-3" "raiz-0" "raiz-1" "raiz-2" "raiz-3";
-    border: 5px solid #000000;
 
-  p {
-    font-size: 2.5em;
-    text-align: center;
+.accesorios__title {
+  line-break: anywhere;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+
+  h2 {
+    font-size: 2.5rem;
     font-family: 'Paytone One', sans-serif;
-    color: #fff;
-  }
-
-  div {
-    width: 100%;
-    
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    transition: transform 1.5s;
-    border: 5px solid #000000;
-  
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 }
 
-
-  .seccion-producto-2 {
-    width: 95%;
-    margin: 20px auto 10px auto;
-    display: grid;
-    border: 5px solid #000000;
-    grid-gap: 1rem;
-    grid-template-columns: 100%;
-    grid-template-areas: "cabeza-2" "abdomen-0" "abdomen-1" "abdomen-2" "abdomen-3" "pierna-0" "pierna-1" "pierna-2" "pierna-3";
- 
-  p {
-    font-size: 2.5em;
-    font-family: 'Paytone One', sans-serif;
-    color: #fff;
+  .funkosyubble__title {
     text-align: center;
-    padding: 10px; 
+    margin-top: 50px;
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.432);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
   }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    transition: transform 1.5s;
-    border: 5px solid #000000;
-  
-    &:hover {
-      transform: scale(1.1);
-    }
+
+  h2 {
+    font-size: 2.5rem;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+.container__cards{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  padding-bottom: 20px;
+}
+
+.card{
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.295);
+  border-top: 1px solid rgba(255, 255, 255, 0.356);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+.card:hover .cover__card img{
+  transform: scale(1.0);
+}
+
+.cover__card{
+  width: 100%;
+  height: 300px;
+  border-radius: 14px;
+  overflow: hidden;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 25px;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+  .gorra__gris {
+    margin-top: -2.0rem;
+  }
+
+  .funko__bubble {
+    height:  80%;
   }
 }
 
-  @media screen and (min-width: 768px) {
-    .main-producto {
-      margin-top: 2.7rem;
-
-    h2 {
-      font-size: 3.9rem;
-      width: 100%;
-      text-align: center;
-    }
-    p {
-      font-size: 2rem;
-    }
-  }
-
-
-    .seccion-producto-0 {
-      grid-template-columns: auto;
-      grid-template-areas: "cabeza cabeza" "torso-0 torse-1" "torse-2 torso-3" "pie-0 pie-1" "pie-2 pie-3";
-      margin-bottom: 2rem;
-    
-    .cabeza {
-      grid-column-start: cabeza;
-      grid-column-end: cabeza;
-    }
-  }
-
-    .seccion-producto-1 {
-      grid-template-columns: auto;
-      grid-template-areas: "cabeza-1 cabeza-1" "tronco-0 tronco-1" "tronco-2 tronco-3" "raiz-0 raiz-1" "raiz-2 raiz-3";
-      margin-bottom: 2rem;
-    
-    .cabeza-1 {
-      grid-column-start: cabeza-1;
-      grid-column-end: cabeza-1;
-    }
-  }
-
-    .seccion-producto-2 {
-      grid-template-columns: auto;
-      grid-template-areas: "cabeza-2 cabeza-2" "abdomen-0 abdomen-1" "abdomen-2 abdomen-3" "pierna-0 pierna-1" "pierna-2 pierna-3";
-      margin-bottom: 1rem;
-    
-    .cabeza-2 {
-      grid-column-start: cabeza-2;
-      grid-column-end: cabeza-2;
-    }
-  }
+.cover__card img{
+  width: 80%;
+  transition: all 300ms;
 }
-  
-  @media screen and (min-width: 900px) {
 
-    .main-producto {
-      margin-top: 6rem;
-  
-    h2 {
-      font-size: 6rem;
-      width: 100%;
-      text-align: center;
-    }
-
-    p {
-      font-size: 2rem;
-    }
-  }
-
-    .seccion-producto-0 {
-      display: grid;
-      width: 80%;
-      grid-gap: 1rem;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      grid-template-areas: "cabeza cabeza cabeza cabeza" "torso-0 torso-1 torso-2 torseo-3" "pie-0 pie-1 pie-2 pie-3";
-  
-    .cabeza {
-      grid-column-start: cabeza;
-      grid-column-end: cabeza;
-      font-size: 4rem;
-    }
-  }
-    .seccion-producto-1 {
-      display: grid;
-      grid-gap: 1rem;
-      width: 80%;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      grid-template-areas: "cabeza-1 cabeza-1 cabeza-1 cabeza-1" "tronco-0 tronco-1 tronco-2 tronco-3" "raiz-0 raiz-1 raiz-2 raiz-3";
-    
-    .cabeza-1 {
-      grid-column-start: cabeza-1;
-      grid-column-end: cabeza-1;
-      font-size: 4rem;
-    }
-  }
-    .seccion-producto-2 {
-      display: grid;
-      grid-gap: 1rem;
-      width: 80%;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      grid-template-areas: "cabeza-2 cabeza-2 cabeza-2 cabeza-2" "abdomen-0 abdomen-1 abdomen-2 abdomen-3" "pierna-0 pierna-1 pierna-2 pierna-3";
-    
-      .cabeza-2 {
-        grid-column-start: cabeza-2;
-        grid-column-end: cabeza-2;
-        font-size: 4rem;
-      }
-    }
-  }
-  
-  
-  
-  @media only screen and (min-width: 1135px) {
-    .main-producto {
-      margin-top: 6rem;
- 
-      h2 {
-        font-size: 6.3rem;
-        width: 100%;
-        text-align: center;
-      }
-      p {
-        font-size: 2rem;
-        width: 50%;
-      }
-    }
-
-    .seccion-producto-0 {
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-areas: "cabeza cabeza cabeza cabeza" "torso-0 torso-1 torso-2 torseo-3" "pie-0 pie-1 pie-2 pie-3";
-    
-    .cabeza {
-      grid-column-start: cabeza;
-      grid-column-end: cabeza;
-      font-size: 5rem;
-      width: 100%;
-    }
-  }
-
-    .seccion-producto-1 {
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-areas: "cabeza-1 cabeza-1 cabeza-1 cabeza-1" "tronco-0 tronco-1 tronco-2 tronco-3" "raiz-0 raiz-1 raiz-2 raiz-3";
-   
-    .cabeza-1 {
-      grid-column-start: cabeza-1;
-      grid-column-end: cabeza-1;
-      font-size: 5rem;
-      width: 100%;
-    }
-  }
-
-    .seccion-producto-2 {
-      display: grid;
-      grid-gap: 1rem;  
-      grid-template-areas: "cabeza-2 cabeza-2 cabeza-2 cabeza-2" "abdomen-0 abdomen-1 abdomen-2 abdomen-3" "pierna-0 pierna-1 pierna-2 pierna-3";
-  
-    .cabeza-2 {
-      grid-column-start: cabeza-2;
-      grid-column-end: cabeza-2;
-      font-size: 5rem;
-      width: 100%;
-    }
-  }
+.card p{
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;  
+  letter-spacing: 0.5px;
 }
+
+
+.footer__card{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__card h3{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer__card button {
+  border-radius: 20px;
+  background-color: #0fafdf;
+  width: 6rem;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.user__name {
+  font-family: 'Paytone One', sans-serif;
+}
+
