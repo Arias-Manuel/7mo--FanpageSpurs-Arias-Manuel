@@ -2226,8 +2226,6 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transition: all 300ms;
-}
-.jersey__title h2 {
   font-size: 2.5rem;
   font-family: "Paytone One", sans-serif;
 }
