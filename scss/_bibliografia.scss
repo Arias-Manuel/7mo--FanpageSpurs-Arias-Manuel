@@ -36,7 +36,7 @@
   
   div {
     height: 200px;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
     padding: 1rem auto;
   }
@@ -48,7 +48,7 @@
     transition: transform 1.5s;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(0.8);
     }
   }
 

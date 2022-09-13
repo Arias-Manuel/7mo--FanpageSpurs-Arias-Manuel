@@ -285,6 +285,15 @@
   .header-bibliografia {
     min-height: 50vw;
   }
+  .seccion-bibliografia-0 h2 {
+    font-size: 3rem;
+    font-family: "Lobster", cursive;
+  }
+  .seccion-bibliografia-0 p {
+    margin: 20px 0 40px;
+    font-size: 3rem;
+    font-family: "Lobster", cursive;
+  }
 }
 /*header fanposts*/
 .header-fanposts {
@@ -871,7 +880,7 @@
 }
 .seccion-bibliografia-1 div {
   height: 200px;
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
   padding: 1rem auto;
 }
@@ -882,7 +891,7 @@
   transition: transform 1.5s;
 }
 .seccion-bibliografia-1 img:hover {
-  transform: scale(1.1);
+  transform: scale(0.8);
 }
 .seccion-bibliografia-1 p {
   font-size: 1.4rem;
