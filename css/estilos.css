@@ -80,7 +80,7 @@
 .nav .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 30px 12px;
+  padding: 25px 12px;
   position: relative;
 }
 .nav .nav-links ul li:after {
@@ -2139,15 +2139,13 @@
   transform: translate(-50%, -50%);
   z-index: -1;
 }
-
-.triangle {
+.container__background-triangle .triangle {
   width: 300px;
   height: 300px;
   background: red;
   position: absolute;
 }
-
-.triangle1 {
+.container__background-triangle .triangle1 {
   width: 250px;
   height: 250px;
   background: linear-gradient(to left, #0ea1e6, #1e67c7);
@@ -2155,23 +2153,6 @@
   top: 100px;
   animation: t1 8s ease infinite;
 }
-
-.triangle2 {
-  width: 200px;
-  height: 200px;
-  background: linear-gradient(to left, #ee8105, #c7371e);
-  top: 350px;
-  animation: t2 9s ease infinite;
-}
-
-.triangle3 {
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(to left, #1b8fc5, #df0f8f);
-  left: 200px;
-  animation: t3 7s ease infinite;
-}
-
 @keyframes t1 {
   0% {
     transform: rotate(45deg) translateY(0px);
@@ -2182,6 +2163,13 @@
   100% {
     transform: rotate(45deg) translateY(0px);
   }
+}
+.container__background-triangle .triangle2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to left, #ee8105, #c7371e);
+  top: 350px;
+  animation: t2 9s ease infinite;
 }
 @keyframes t2 {
   0% {
@@ -2194,6 +2182,13 @@
     transform: rotate(65deg) translateY(0px);
   }
 }
+.container__background-triangle .triangle3 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to left, #1b8fc5, #df0f8f);
+  left: 200px;
+  animation: t3 7s ease infinite;
+}
 @keyframes t3 {
   0% {
     transform: rotate(45deg) translateY(0px);
@@ -2205,6 +2200,7 @@
     transform: rotate(45deg) translateY(0px);
   }
 }
+
 .jersey__title {
   text-align: center;
   margin-top: 50px;
@@ -2293,13 +2289,17 @@
   -webkit-backdrop-filter: blur(5px);
   transition: all 300ms;
 }
-
 .card:hover {
   transform: translateY(-5px);
 }
-
 .card:hover .cover__card img {
   transform: scale(1);
+}
+.card:hover .cover__card img p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
 .cover__card {
@@ -2319,17 +2319,9 @@
 .cover__card .funko__bubble {
   height: 80%;
 }
-
 .cover__card img {
   width: 80%;
   transition: all 300ms;
-}
-
-.card p {
-  margin-top: 20px;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
 }
 
 .footer__card {
@@ -2337,20 +2329,17 @@
   display: flex;
   justify-content: space-between;
 }
-
 .footer__card h3 {
   font-size: 15px;
   font-weight: 500;
 }
-
 .footer__card button {
   border-radius: 20px;
   background-color: #0fafdf;
   width: 6rem;
   font-family: "Paytone One", sans-serif;
 }
-
-.user__name {
+.footer__card .user__name {
   font-family: "Paytone One", sans-serif;
 }
 
